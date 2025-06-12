@@ -33,7 +33,7 @@ function Stopwatch(){
     return(
         <div>
             <h1>Stopwatch</h1>
-            <p><span>Time:</span><span>{formatTime(second)}</span></p>
+            <p><span>Time: </span><span>{formatTime(second)}</span></p>
             {!timerOn?
             <button name="Start" onClick={startTimer}>Start</button>:
             <button name="Stop" onClick={stopTimer}>Stop</button>
